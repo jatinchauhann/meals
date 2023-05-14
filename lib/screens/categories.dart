@@ -67,6 +67,7 @@ class _CategoriesScreenState extends State<CategoriesScreen>
               )
           ],
         ),
+        // Using explicit animations
         builder: (context, child) => SlideTransition(
               position:
                   Tween(begin: const Offset(0, 0.3), end: const Offset(0, 0))
